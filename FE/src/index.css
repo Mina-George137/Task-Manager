@@ -1,0 +1,16 @@
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  /* App-level utilities */
+  /*every time you want a card, button, or input style, 
+  you’d have to write all those Tailwind classes in the HTML directly*/
+  @layer components {
+    .card { @apply bg-white dark:bg-zinc-900 shadow rounded-2xl border border-zinc-200 dark:border-zinc-800; }
+    .btn { @apply inline-flex items-center justify-center px-4 py-2 rounded-xl font-medium border border-transparent; }
+    .btn-primary { @apply btn bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-800; }
+    .btn-secondary { @apply btn bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700; }
+    .input { @apply w-full rounded-xl border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-3 py-2 outline-none focus:ring-2 focus:ring-blue-500; }
+    .label { @apply text-sm font-medium text-zinc-700 dark:text-zinc-300; }
+    .error { @apply text-sm text-red-600 mt-1; }
+  }
