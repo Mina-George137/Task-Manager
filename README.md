@@ -66,6 +66,7 @@ A backend service for managing tasks, built with **Node.js**, **Express**, **MyS
 - CRUD operations for tasks (Create, Read, Update, Delete)
 - Protected routes for authenticated users only
 - Swagger API documentation
+- Jest and Supertest for testing
 
 ## ⚙️ Tech Stack
 - **Backend**: Node.js, Express
@@ -73,6 +74,7 @@ A backend service for managing tasks, built with **Node.js**, **Express**, **MyS
 - **Authentication**: JWT + bcryptjs
 - **Validation**: Joi
 - **Documentation**: Swagger (swagger-jsdoc + swagger-ui-express)
+- **Unit & Integration Testing** – API endpoints tested using Jest and Supertest.
 
 ## 🚀 Getting Started
 
