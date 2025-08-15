@@ -114,3 +114,10 @@ npm run dev
 yarn dev
 ```
 
+### 6. We can test apis using jest:
+```bash
+npm test
+```
+<img width="346" height="258" alt="image" src="https://github.com/user-attachments/assets/d6c47f63-99aa-4f14-b5b2-28cee0bfe283" />
+
+
