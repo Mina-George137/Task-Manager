@@ -36,3 +36,6 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
   console.log(`Swagger UI available at http://localhost:${PORT}/api-docs`);
 });
+
+// FOR TEST KINFLY COMMENT THE LISTEN FUNCTION AND UNCOMMENT THE BELOW LINE:
+// export default app;
