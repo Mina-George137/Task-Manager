@@ -47,13 +47,14 @@ yarn dev
 Open http://localhost:5173 in your browser.
 
 ### Project Structure
-src/
+* App.tsx         # Main application component
+* main.tsx        # Entry point
+* src/
   - components/     # Reusable UI components
   - context/        # Auth & Theme context
   - pages/          # Route pages (SignIn, SignUp, Dashboard)
   - API/       # Axios API service functions
-App.tsx         # Main application component
-main.tsx        # Entry point
+
 
 ---
 # Task Manager API
