@@ -51,9 +51,9 @@ src/
   - components/     # Reusable UI components
   - context/        # Auth & Theme context
   - pages/          # Route pages (SignIn, SignUp, Dashboard)
-  - services/       # Axios API service functions
-  - App.tsx         # Main application component
-  - main.tsx        # Entry point
+  - API/       # Axios API service functions
+App.tsx         # Main application component
+main.tsx        # Entry point
 
 ---
 # Task Manager API
